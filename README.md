@@ -41,17 +41,11 @@ $ sudo apt-get install ghc6 # Debian-based Linux
 $ brew install ghc          # Mac, via Homebrew
 ```
 
-- Compile the analysis script.
-
-```sh
-$ cd scrapy/analyze
-$ ghc -o anazump anazump.hs
-```
-
 - Run the analysis script.
 
 ```sh
-$ ./anazump
+$ cd scrapy/analyze
+$ runhaskell anazump.hs
 ```
 
 ## Develop ##

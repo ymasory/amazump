@@ -45,7 +45,7 @@ $ brew install ghc          # Mac, via Homebrew
 
 ```sh
 $ cd scrapy/analyze
-$ runhaskell anazump.hs
+$ runhaskell anazump.hs /path/to/dump.json
 ```
 
 ## Develop ##

@@ -1,1 +1,3 @@
-main = putStrLn "hello world"
+import System.Environment
+
+main = putStrLn "coming soon?"

@@ -1,4 +1,4 @@
-# amazon - dump all your amazon purchases into mongodb #
+# amazump - dump all your amazon purchases into mongodb #
 
 ## install ##
 
@@ -10,3 +10,5 @@ sudo pip install Scrapy
 ```
 
 ## run ##
+
+## analyze ##

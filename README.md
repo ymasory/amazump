@@ -1,4 +1,6 @@
-# amazump - dump your amazon.com purchases into json/xml/csv #
+# amazump #
+
+Dump your amazon.com purchases into json/xml/csv!
 
 ## Install Scrapy ##
 

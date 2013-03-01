@@ -1,1 +1,4 @@
 *.pyc
+/dump.json
+/dump.xml
+/dump.csv

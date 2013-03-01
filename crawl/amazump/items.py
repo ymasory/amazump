@@ -1,6 +1,11 @@
 from scrapy.item import Item, Field
 
-class AmazumpItem(Item):
+class DmozItem(Item):
+    title = Field()
+    link = Field()
+    desc = Field()
+
+class Order(Item):
     order_id = Field()
     order_placed = Field()
     order_total = Field()

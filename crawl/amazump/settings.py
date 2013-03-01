@@ -11,5 +11,4 @@ BOT_NAME = 'amazump'
 SPIDER_MODULES = ['amazump.spiders']
 NEWSPIDER_MODULE = 'amazump.spiders'
 
-# Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'amazump (+http://www.yourdomain.com)'
+USER_AGENT = 'amazump (+https://github.com/ymasory/amazump)'

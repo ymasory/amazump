@@ -1,10 +1,10 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 
-from amazump.items import DmozItem
+from amazump.items import Order, DmozItem
 
-class DmozSpider(BaseSpider):
-   name = "dmoz"
+class OrderSpider(BaseSpider):
+   name = "orders"
    allowed_domains = ["dmoz.org"]
    start_urls = [
        "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",

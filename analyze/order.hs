@@ -1,4 +1,5 @@
 {-# LANGUAGE RecordWildCards #-}
+module Anazump where
 
 import Text.JSON
 import Text.JSON.Types

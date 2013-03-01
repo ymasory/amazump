@@ -1,9 +1,11 @@
-# amazump - dump all your amazon purchases into mongodb #
+# amazump - dump your amazon.com purchases into json/xml/csv #
 
 ## install ##
 
 - Install Python.
-- Install Scrapy.
+You probably already have it installed.
+
+- Install [Scrapy](http://doc.scrapy.org/en/latest/intro/install.html).
 
 ```sh
 sudo pip install Scrapy
